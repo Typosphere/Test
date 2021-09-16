@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(251, 251, 251);
+    margin: 50px;
+}
+
+.container{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* .titel{
+    position: relative;
+    font-family: sans-serif;
+    font-size:100%;
+    margin-left: 13%;
+    margin-right: auto;
+    text-align: left;
+} */
+
+/* css effecten voor afbeeldingen gezien op netspecialist.nl*/
+/* het maken van een zwart wit beeld met property "filter"*/
+
+.nomad{
+    /* float: right; */
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    /* padding: 0; 
+    opacity: 0.25;
+    transition: 0.5s; */
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+/* css effecten voor afbeeldingen gezien op netspecialist.nl*/
+/* het maken van zww beeld met grayscale*/
+.nomad:hover{
+    filter: grayscale(0%);
+}
+/* het maken van transparant beeld, met opacity*/
+
+ /* .nomad:hover{
+    opacity: 1;
+} */
+
+
+/* 
+.fashion{
+    position: relative;
+    margin: auto;
+}
+
+.archi{
+    float: left;
+    width: 23%;
+    margin: 0.5em;
+    padding: 0.5em;
+} */
